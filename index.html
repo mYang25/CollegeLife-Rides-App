@@ -15,24 +15,30 @@
     </br>
         Soli Deo Gloria
     </h2>
-    <label for="drivers">Upload .csv for drivers:</label>
-</br>
-    <input type="file"
-        id="drivers" name="drivers"
-        accept=".csv">
-</br>
-</br>
-    <label for="wRiders">Upload .csv for weekly riders:</label>
-</br>
-    <input type="file"
-        id="wRiders" name="wRiders"
-        accept=".csv">
-</br>
-</br>
-    <label for="pRiders">Upload .csv for permanent riders:</label>
-</br>
-    <input type="file"
-        id="pRiders" name="pRiders"
-        accept=".csv">
+    <form action="/EwDataScience.ipynb" method="get">
+        <label for="drivers">Upload .csv for drivers:</label>
+    </br>
+        <input type="file"
+            id="drivers" name="drivers"
+            accept=".csv">
+    </br>
+    </br>
+        <label for="wRiders">Upload .csv for weekly riders:</label>
+    </br>
+        <input type="file"
+            id="wRiders" name="wRiders"
+            accept=".csv">
+    </br>
+    </br>
+        <label for="pRiders">Upload .csv for permanent riders:</label>
+    </br>
+        <input type="file"
+            id="pRiders" name="pRiders"
+            accept=".csv">
+    </br>
+    </br>
+    <button type="submit" formaction="/EwDataScience.ipynb">RUN</button>
+</form>
+
 </body>
 </html>
