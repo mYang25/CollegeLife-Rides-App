@@ -6,7 +6,7 @@ Guide for setting up and running the CL Rides App locally.
     - `python3 -m venv venv`
 2. Activate your virtual environment
     - `source venv/bin/activate`
-   Or for Windows
+   </br>Or for Windows
     - `cd venv\Scripts`
     - `.\activate.bat`
 3. Install the dependencies
@@ -18,7 +18,7 @@ Guide for setting up and running the CL Rides App locally.
     - This setting enables automatic reloads so you don't have to restart the server each time you make changes, just refresh the page.
 5. Run the application
     - `flask run`
-   Or for Windows
+   </br>Or for Windows
     - `cd C:User\filepath\CL-Rides-Pog`
     - `set FLASK_ENV=development`
     - `set FLASK_APP=app`
