@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container-fluid mt-5 pt-5">
+    <div class="row justify-content-center">
+        <p class="text-center text-success h5">Assignments were successful!</p>
+        <div class="col-12 d-flex justify-content-center">
+            <form action="/download_assignments">
+                <button class="btn btn-lg btn-info m-3 text-white" type="submit">
+                    <i class="bi bi-download"></i>
+                    Download assignments.csv
+                </button>
+            </form>
+            <form action="/download_drivers">
+                <button class="btn btn-lg btn-info m-3 text-white" type="submit">
+                    <i class="bi bi-download"></i>
+                    Download drivers.csv
+                </button>
+            </form>
+        </div>
+        <div class="col-12 d-flex justify-content-center">
+            <form action="/">
+                <button class="btn btn-lg btn-primary rounded-pill m-3" type="submit">
+                    <i class="bi bi-arrow-clockwise"></i>
+                    Resubmit
+                </button>
+            </form>
+        </div>
+
+    </div>
+</div>
+</div>
+
+{% endblock %}

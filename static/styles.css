@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Poppins:wght@400;500&family=Meddon&display=swap');
+
+* {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #bacee9;
+    font-family: 'Poopins', sans-serif;
+}
+
+#soli-deo-gloria {
+    font-family: 'Meddon', cursive;
+}
+
+#verse {
+    background-color: lemonchiffon;
+    margin: 20px 0;
+}
+
+#verse h2 {
+    background-color: lemonchiffon;
+}
+
+#verse-ref {
+    padding: 0;
+}
+
+#form-box {
+    border: 5px solid #003366;
+}
+
+#run {
+    background-color: #43b8e5;
+    color: #fff;
+    min-width: 10rem;
+}
