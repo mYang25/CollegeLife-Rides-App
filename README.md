@@ -22,4 +22,4 @@ Guide for setting up and running the CL Rides App locally.
     - `cd C:User\filepath\CL-Rides-Pog`
     - `set FLASK_ENV=development`
     - `set FLASK_APP=app`
-    - `flask run`
+    - `python -m flask run`
