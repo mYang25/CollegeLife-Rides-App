@@ -22,6 +22,7 @@ def simplifyDf(df):
         return df.copy()[['Name', 'Preferred Pickup', 'CL', 'NumSeats']]
 
 #Combiine the weekly rides form and permanent rides form, remove any duplicates
+#Needs to be fixed
 def combineRiders(wrf, prf):
     rf = pd.concat([wrf, prf], ignore_index=True)
     rf['Timestamp'] = pd.to_datetime(rf['Timestamp'])
