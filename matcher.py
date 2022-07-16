@@ -102,7 +102,8 @@ def assign(df, df_copy, rf):
 
 # export the select columns of the riders dataframe to a CSV file
 def getAssignments(rf):
-    rf.to_csv("assignments.csv", index=False, columns=['Name', 'Pickup', 'Driver'])
+    rf.sort_values(by="Driver")
+    rf.to_csv("assignments.csv", index=False, columns=['Driver', 'Pickup', 'I need', 'Name', 'PhoneNum', 'Other'])
     
 # export the riders data fram to a CSV file
 def getDrivers(df):
