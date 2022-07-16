@@ -1,4 +1,4 @@
-Timestamp,Name,I need,Pickup,PhoneNum,Other
+"Timestamp","Name","I need","Pickup","PhoneNum","Other"
 5/17/2022 21:57:29,Yolanda Mai,"there, back",Marshall,6264266348,
 5/17/2022 21:40:42,katie short,there,Sixth,5138083540,
 5/19/2022 16:46:23,Simon Tan,back,ERC,11111111111,
@@ -18,13 +18,11 @@ Timestamp,Name,I need,Pickup,PhoneNum,Other
 5/17/2022 22:18:54,Ester Tsai,there,Sixth,925111000,Thoughts!
 5/17/2022 22:20:45,material gworl,"there, back",Sixth,1239876453,sheesh da baby
 5/17/2022 22:28:27,Esther eggies ,"there, back",Sixth,911,
-5/17/2022 22:40:57,Esturd Loo,"there, back",Sixth,6267417403,大便
 5/17/2022 22:43:07,BipBopBup,back,Sixth,1231231234,
 5/18/2022 0:10:40,Jeremy Wong,"there, back",Sixth,2069999728,
 5/18/2022 22:48:48,Elisha Tom,"there, back",Sixth,6266840826,
 5/17/2022 21:33:32,Luke skywalker,back,Peepo Canyon,5715099013,
 5/17/2022 22:33:01,man…,"there, back",Muir,0,
-5/17/2022 22:03:48,Joshua Chuang,there,Muir,8582136628,
-5/17/2022 22:32:51,tw,"there, back",Warren,1234567890,\0\t\n
+5/17/2022 22:03:48,Joshua Chuang,"there",Muir,8582136628,
 5/18/2022 12:15:07,Nathan Chuang,"there, back",Warren,8588298976,
-5/17/2022 22:25:34,froggers poggers,there,Warren,382819471,hehehehehe
+5/17/2022 22:25:34,froggers poggers,"there",Warren,382819471,hehehehehe
