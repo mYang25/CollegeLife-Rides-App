@@ -25,7 +25,6 @@ def run():
 #Process the provided forms and create the needed CSVs
 def process(df, wrf, prf):
     mr.setupDf(df)
-    mr.sort(df, prf)
     df_copy = mr.simplifyDf(df)
     rf = mr.combineRiders(wrf, prf)
     mr.assign(df, df_copy, rf)
@@ -33,11 +32,11 @@ def process(df, wrf, prf):
     mr.getDrivers(df)
 
 #Download driver-rider assignments as a CSV
-@app.route("/download_assignments", methods=["GET", "POST"])
+@app.route("/download-assignments", methods=["GET", "POST"])
 def download_assignments():
     return send_file("assignments.csv", as_attachment=True)
 
 #Download the updated drivers CSV
-@app.route("/download_drivers", methods=["GET", "POST"])
+@app.route("/download-drivers", methods=["GET", "POST"])
 def download_drivers():
     return send_file("drivers.csv", as_attachment=True)
